@@ -1,0 +1,93 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Caveat:wght@400;500;600;700&family=Cutive+Mono&family=Fuzzy+Bubbles:wght@700&family=Great+Vibes&family=Kaushan+Script&family=Lobster&family=Patrick+Hand&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Unica+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC&family=Caveat:wght@400;500;600;700&family=Courgette&family=Cutive+Mono&family=Fuzzy+Bubbles:wght@700&family=Great+Vibes&family=Kaushan+Script&family=Lobster&family=Patrick+Hand&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Unica+One&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background: rgb(141, 127, 127);
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+    /*font-size: 2vw;*/
+    
+
+}
+header h1{
+    padding-top: 50px;
+}
+header p {
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: border;
+}
+a:hover{
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 2em;
+    font-family: 'Courgette', cursive;
+    font-weight: lighter;
+    font-size: 2.5vw;
+}
+
+section.imagem{
+    background: white;
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.562);
+    background-attachment: fixed;
+}
+section.normal{
+    background: white;
+    
+}
+
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 400px;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 0px 0px black;
+    
+}
+
+section.normal p{
+    padding: 10px;
+
+}
+section p {
+    padding-bottom: 5px;
+    text-shadow: 2px 2px 0px 0px black;
+}
+
+#img1{
+    background-image: url('./imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+#img2{
+    background-image: url('./imagens/background002.jpg');
+    background-size: cover;
+    background-position: right center;
+}
